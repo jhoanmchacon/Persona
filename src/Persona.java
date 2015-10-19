@@ -1,47 +1,47 @@
+import java.util.Scanner;
 
-import java.util.*;
-public class Persona {	
-	private Scanner entrada;
-	private String nombre;
-	private String apellido;
-	private String sexo;
-	private String telefono;
-	private int cedula;
-	private int edad;
-	
-	public void capturaDatos(){
-		entrada= new Scanner (System.in);
-		System.out.println("ingrese su Nombre: ");
-		nombre = entrada.next();
-		System.out.println("Ingrese su apellido: ");
-		apellido=entrada.next();
-		System.out.println("Ingrese su Numero de Cedula:  ");
-		cedula=entrada.nextInt();
-		System.out.println("Ingrese su sexo: ");
-		sexo=entrada.next();
-		System.out.println("Ingrese su numero de telefono:");
-		telefono=entrada.next();
-		System.out.println("Ingrese su edad: ");
-		edad=entrada.nextInt();
+public class Persona {
+
+     private String nombre;
+	 private String apellido;
+	 private String edad;
+	 private String cedula;
+	 private String telefono;
+	 
+	 static Scanner in = new Scanner (System.in);
+
+	public void introducirDatos(){
+		System.out.println("Introduce tu nombre:");
+		nombre = in.next();
+		System.out.println("Introduce tu apellido:");
+		apellido = in.next();
+		System.out.println("Introduce tu edad:");
+		edad = in.next();
+		System.out.println("Introduce tu cedula:");
+		cedula = in.next();
+		System.out.println("Introduce tu numero de telefono:");
+		telefono = in.next();
+						
 		
-		System.out.println("Sr(a) Por favor indique si sus datos son Correctos");
-		System.out.println("Nombre y apellido:" + nombre + " " + apellido);
-		System.out.println("Cedula: " + cedula);
-		System.out.println("Edad: " + edad);
-		System.out.println("Sexo: " + sexo);
-		System.out.println("telefono: " + telefono);
 	}
+	public void Imprimir(){
 		
-		
+	System.out.println("Tus datos son:\n"+ nombre);
+	System.out.println("\n" + apellido);
+	System.out.println("\n" + edad);
+	System.out.println("\n" + cedula);
+	System.out.println("\n" + telefono);
+	
+
+}
 	public static void main(String[]args){
-		Persona persona1;
-		persona1=new Persona();
-		persona1.capturaDatos();
-		//persona1.imprimir();		
-		
+		Persona p= new Persona();
+		p.introducirDatos();
+		p.Imprimir();
 	}
+}
 	
-	}
+
 
 		
 	
