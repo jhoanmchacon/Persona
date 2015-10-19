@@ -4,7 +4,7 @@ public class Persona {
 
      private String nombre;
 	 private String apellido;
-	 private String edad;
+	 private int edad;
 	 private String cedula;
 	 private String telefono;
 	 
@@ -16,7 +16,7 @@ public class Persona {
 		System.out.println("Introduce tu apellido:");
 		apellido = in.next();
 		System.out.println("Introduce tu edad:");
-		edad = in.next();
+		edad = in.nextInt();
 		System.out.println("Introduce tu cedula:");
 		cedula = in.next();
 		System.out.println("Introduce tu numero de telefono:");
@@ -34,10 +34,19 @@ public class Persona {
 	
 
 }
+	public void mayorEdad(){
+		if (edad>=18){
+			System.out.println("Es mayor de edad");
+		}
+		else {
+			System.out.println("Es menor de edad");
+		}
+	}
 	public static void main(String[]args){
 		Persona p= new Persona();
 		p.introducirDatos();
 		p.Imprimir();
+		p.mayorEdad();
 	}
 }
 	
