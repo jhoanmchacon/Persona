@@ -5,6 +5,7 @@ public class Persona {
 	private String nombre;
 	private String apellido;
 	private String sexo;
+	private String telefono;
 	private int cedula;
 	private int edad;
 	
@@ -18,6 +19,8 @@ public class Persona {
 		cedula=entrada.nextInt();
 		System.out.println("Ingrese su sexo: ");
 		sexo=entrada.next();
+		System.out.println("Ingrese su numero de telefono:");
+		telefono=entrada.next();
 		System.out.println("Ingrese su edad: ");
 		edad=entrada.nextInt();
 		
@@ -26,6 +29,7 @@ public class Persona {
 		System.out.println("Cedula: " + cedula);
 		System.out.println("Edad: " + edad);
 		System.out.println("Sexo: " + sexo);
+		System.out.println("telefono: " + telefono);
 	}
 		
 		
