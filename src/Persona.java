@@ -20,19 +20,20 @@ public class Persona {
 		sexo=entrada.next();
 		System.out.println("Ingrese su edad: ");
 		edad=entrada.nextInt();
-	}
-	public void imprimir(){
+		
 		System.out.println("Sr(a) Por favor indique si sus datos son Correctos");
 		System.out.println("Nombre y apellido:" + nombre + " " + apellido);
 		System.out.println("Cedula: " + cedula);
 		System.out.println("Edad: " + edad);
 		System.out.println("Sexo: " + sexo);
 	}
+		
+		
 	public static void main(String[]args){
 		Persona persona1;
 		persona1=new Persona();
 		persona1.capturaDatos();
-		persona1.imprimir();		
+		//persona1.imprimir();		
 		
 	}
 	
