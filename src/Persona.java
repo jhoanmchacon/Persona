@@ -27,11 +27,11 @@ public class Persona {
 	}
 	public void Imprimir(){
 		
-	System.out.println("Tus datos son:\n"+ nombre);
-	System.out.println("\n" + apellido);
-	System.out.println("\n" + edad);
-	System.out.println("\n" + cedula);
-	System.out.println("\n" + telefono);
+	System.out.println("Tus datos son:\n Nombre:"+ nombre);
+	System.out.println("\n Apellido:" + apellido);
+	System.out.println("\n Edad:" + edad);
+	System.out.println("\n Cedula:" + cedula);
+	System.out.println("\n Telefono:" + telefono);
 	
 
 }
@@ -44,9 +44,9 @@ public class Persona {
 		}
 	}
 	public void comprobarNombre(){
-		String nombre="maria";
+		
 		if (nombre=="maria"){
-			System.out.println("\n datos correctos");
+			System.out.println("\n datos correctos");	
 		}
 		else{
 			System.out.println("\n datos incorrectos");
