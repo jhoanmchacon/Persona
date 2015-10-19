@@ -42,11 +42,20 @@ public class Persona {
 			System.out.println("Es menor de edad");
 		}
 	}
+	public void comprobarNombre(){
+		if (nombre=="maria" && apellido=="carias"){
+			System.out.println("autenticacion correcta");
+		}
+		else{
+			System.out.println("datos incorrectos");
+		}
+	}
 	public static void main(String[]args){
 		Persona p= new Persona();
 		p.introducirDatos();
 		p.Imprimir();
 		p.mayorEdad();
+		p.comprobarNombre();
 	}
 }
 	
