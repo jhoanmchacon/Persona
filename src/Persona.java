@@ -1,6 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;// mas comentarios jhoan
-
+//librerias de la clase
 public class Persona {
 
      private static String nombre;
