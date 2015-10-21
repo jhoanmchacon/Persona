@@ -8,9 +8,9 @@ public class Persona {// otro cambio
 	 private static int edad;
 	 private static String cedula;
 	 private static String telefono;
-	 
+	 //variables del programa
 	 static Scanner in = new Scanner (System.in);
-
+         //variables del programa
 	public void introducirDatos(){//prubas
 		System.out.println("Introduce tu nombre:");
 		nombre = in.next();
