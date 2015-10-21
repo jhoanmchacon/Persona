@@ -11,7 +11,7 @@ public class Persona {
 	 
 	 static Scanner in = new Scanner (System.in);
 
-	public void introducirDatos(){
+	public void introducirDatos(){//prubas
 		System.out.println("Introduce tu nombre:");
 		nombre = in.next();
 		System.out.println("Introduce tu apellido:");
