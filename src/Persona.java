@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.Arrays;// khkjhj
 import java.util.Scanner;// mas comentarios jhoan
 
 public class Persona {// otro cambio
