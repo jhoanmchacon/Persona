@@ -43,21 +43,21 @@ public class Persona {
 			System.out.println("\n Es menor de edad");
 		}
 	}
-	public void comprobarNombre(){
+	//public void comprobarNombre(){
 		
-		if (nombre=="maria"){
-			System.out.println("\n datos correctos");	
-		}
-		else{
-			System.out.println("\n datos incorrectos");
-		}
-	}
+		//if (nombre=="maria"){
+			//System.out.println("\n datos correctos");	
+		//}
+		//else{
+			//System.out.println("\n datos incorrectos");
+		//}
+	//}
 	public static void main(String[]args){
 		Persona p= new Persona();
 		p.introducirDatos();
 		p.Imprimir();
 		p.mayorEdad();
-		p.comprobarNombre();
+		//p.comprobarNombre();
 		
 		Object[] p1= {nombre, apellido, edad, cedula, telefono};
 		System.out.println("\n Vector de datos");
