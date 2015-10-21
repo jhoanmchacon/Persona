@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;// mas comentarios jhoan
 
-public class Persona {
+public class Persona {// otro cambio
 
      private static String nombre;
 	 private static String apellido;
