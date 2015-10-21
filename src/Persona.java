@@ -8,7 +8,7 @@ public class Persona {
 	 private static int edad;
 	 private static String cedula;
 	 private static String telefono;
-	 
+	 //variables del programa
 	 static Scanner in = new Scanner (System.in);
 
 	public void introducirDatos(){//prubas
