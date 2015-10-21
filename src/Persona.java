@@ -10,7 +10,7 @@ public class Persona {
 	 private static String telefono;
 	 //variables del programa
 	 static Scanner in = new Scanner (System.in);
-
+         //variables del programa
 	public void introducirDatos(){//prubas
 		System.out.println("Introduce tu nombre:");
 		nombre = in.next();
