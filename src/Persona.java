@@ -1,17 +1,22 @@
-import java.util.Arrays;
+import java.util.Arrays;// khkjhj
 import java.util.Scanner;// mas comentarios jhoan
+
 //librerias de la clase
 public class Persona {
+=======
 
-     private static String nombre;
+public class Persona {// otro cambio
+
+         //variables del programa
+         private static String nombre;
 	 private static String apellido;
 	 private static int edad;
 	 private static String cedula;
 	 private static String telefono;
-	 //variables del programa
+	 
 	 static Scanner in = new Scanner (System.in);
-         //variables del programa
-	public void introducirDatos(){//prubas
+  
+	public void introducirDatos(){//pruebas
 		System.out.println("Introduce tu nombre:");
 		nombre = in.next();
 		System.out.println("Introduce tu apellido:");
@@ -43,27 +48,27 @@ public class Persona {
 			System.out.println("\n Es menor de edad");
 		}
 	}
-	//public void comprobarNombre(){
+	public void comprobarNombre(){
 		
-		//if (nombre=="maria"){
-			//System.out.println("\n datos correctos");	
-		//}
-		//else{
-			//System.out.println("\n datos incorrectos");
-		//}
-	//}
+		if (nombre=="maria"){
+			System.out.println("\n datos correctos");	
+		}
+		else{
+			System.out.println("\n datos incorrectos");
+		}
+	}
 	public static void main(String[]args){
 		Persona p= new Persona();
 		p.introducirDatos();
 		p.Imprimir();
 		p.mayorEdad();
-		//p.comprobarNombre();
+		p.comprobarNombre();
 		
 		Object[] p1= {nombre, apellido, edad, cedula, telefono};
 		System.out.println("\n Vector de datos");
 		for (Object value: p1);
 		System.out.println(Arrays.deepToString(p1));
-	}
+	 }      //Imprimir vector
 
 }
 	
