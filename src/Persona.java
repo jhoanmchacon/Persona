@@ -71,6 +71,7 @@ public class Persona {// otro cambio
 			comprobarNombre();
 			verificacionInf();
 		}
+	}
 			
 
 	public void verNacionalidad(){
