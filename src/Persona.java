@@ -3,7 +3,7 @@ import java.util.Scanner;// mas comentarios jhoan
 
 public class Persona {// otro cambio
 
-     private static String nombre;
+     private static String nombre;//jhoan chacon
 	 private static String apellido;
 	 private static int edad;
 	 private static String cedula;
