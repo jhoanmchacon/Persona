@@ -1,5 +1,5 @@
 //Programa Persona
-import java.util.Arrays;// libreria para vectores
+import java.util.Arrays;// libreria para vectores mas comentarios jhoann
 import java.util.Scanner;// mas comentarios jhoan
 
 //librerias de la clase
@@ -72,7 +72,7 @@ public class Persona {// otro cambio
 			verificacionInf();
 		}
 			
-
+	}
 	public void verNacionalidad(){
 		if (pais.equals("venezuela")){
 			System.out.println("Es venezolano");
