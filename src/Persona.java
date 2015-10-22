@@ -2,23 +2,15 @@ import java.util.Arrays;// libreria para vectores
 import java.util.Scanner;// mas comentarios jhoan
 
 //librerias de la clase
-public class Persona {
-=======
 
 public class Persona {// otro cambio
-
-<<<<<<< HEAD
-     private static String nombre;//jhoan chacon
-=======
-         //variables del programa
-         private static String nombre;
->>>>>>> 201c887860c12a4360a7dcd599e36e25341fab85
-	 private static String apellido;//declaracion de variable apellido
-	 private static int edad;
-	 private static String cedula;
-	 private static String telefono;
+	private static String nombre;//jhoan chacongggggg
+	private static String apellido;//declaracion de variable apellido
+	private static int edad;
+	private static String cedula;
+	private static String telefono;
 	 
-	 static Scanner in = new Scanner (System.in);
+	static Scanner in = new Scanner (System.in);
   
 	public void introducirDatos(){//pruebas
 		System.out.println("Introduce tu nombre:");
