@@ -10,11 +10,8 @@ public class Persona {// otro cambio
 	private static int edad;
 	private static String cedula;
 	private static String telefono;
-<<<<<<< HEAD
 	private static String val;
-=======
 	private static String pais;
->>>>>>> 763288672e1a372a06db7df6ddb1ca183416160a
 	 
 	static Scanner in = new Scanner (System.in);
   
@@ -61,7 +58,6 @@ public class Persona {// otro cambio
 			System.out.println("\n datos incorrectos");
 		}
 	}
-<<<<<<< HEAD
 	public void verificacionInf(){
 		System.out.println("\n Sr(a) "+ nombre + " sus datos son Correctos Y/N: ");
 		val=in.next();
@@ -76,7 +72,7 @@ public class Persona {// otro cambio
 			verificacionInf();
 		}
 			
-=======
+
 	public void verNacionalidad(){
 		if (pais.equals("venezuela")){
 			System.out.println("Es venezolano");
@@ -84,8 +80,7 @@ public class Persona {// otro cambio
 		else{
 			System.out.println("Es extranjero");
 		}
->>>>>>> 763288672e1a372a06db7df6ddb1ca183416160a
-		
+
 	}
 	public static void main(String[]args){
 		Persona p= new Persona();
@@ -93,12 +88,8 @@ public class Persona {// otro cambio
 		p.Imprimir();
 		p.mayorEdad();
 		p.comprobarNombre();
-<<<<<<< HEAD
 		p.verificacionInf();
-		
-=======
 		p.verNacionalidad();
->>>>>>> 763288672e1a372a06db7df6ddb1ca183416160a
 		
 		Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
 		System.out.println("\n Vector de datos");
