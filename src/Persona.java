@@ -10,6 +10,7 @@ public class Persona {// otro cambio
 	private static int edad;
 	private static String cedula;
 	private static String telefono;
+	private static String val;
 	 
 	static Scanner in = new Scanner (System.in);
   
@@ -28,9 +29,8 @@ public class Persona {// otro cambio
 		
 	}
 	public void Imprimir(){
-		
-	System.out.println("Tus datos son:\n Nombre:"+ nombre);
-	System.out.println("\n Apellido:" + apellido);
+	System.out.println("\n Sr(a) Por favor verifique si sus datos son Correctos");
+	System.out.println("\n Nombre:"+ nombre +(" ")+ apellido);
 	System.out.println("\n Edad:" + edad);
 	System.out.println("\n Cedula:" + cedula);
 	System.out.println("\n Telefono:" + telefono);
@@ -47,12 +47,28 @@ public class Persona {// otro cambio
 	}
 	public void comprobarNombre(){
 		
-		if (nombre=="maria"){
+		if (nombre.equals("maria")){
 			System.out.println("\n datos correctos");	
 		}
 		else{
 			System.out.println("\n datos incorrectos");
 		}
+	}
+	public void verificacionInf(){
+		System.out.println("\n Sr(a) "+ nombre + " sus datos son Correctos Y/N: ");
+		val=in.next();
+		if (val.equals("y")){
+			System.out.println("\n Gracias por usar Nuestro Sistema");
+		}else{
+			
+			introducirDatos();
+			Imprimir();
+			mayorEdad();
+			comprobarNombre();
+			verificacionInf();
+		}
+			
+		
 	}
 	public static void main(String[]args){
 		Persona p= new Persona();
@@ -60,6 +76,8 @@ public class Persona {// otro cambio
 		p.Imprimir();
 		p.mayorEdad();
 		p.comprobarNombre();
+		p.verificacionInf();
+		
 		
 		Object[] p1= {nombre, apellido, edad, cedula, telefono};
 		System.out.println("\n Vector de datos");
