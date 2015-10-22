@@ -75,7 +75,7 @@ public class Persona {// otro cambio
 		p.comprobarNombre();
 		p.verNacionalidad();
 		
-		Object[] p1= {nombre, apellido, edad, cedula, telefono};
+		Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
 		System.out.println("\n Vector de datos");
 		for (Object value: p1);
 		System.out.println(Arrays.deepToString(p1));
