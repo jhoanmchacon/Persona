@@ -13,7 +13,7 @@ public class Persona {// otro cambio
          //variables del programa
          private static String nombre;
 >>>>>>> 201c887860c12a4360a7dcd599e36e25341fab85
-	 private static String apellido;
+	 private static String apellido;//declaracion de variable apellido
 	 private static int edad;
 	 private static String cedula;
 	 private static String telefono;
