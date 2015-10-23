@@ -73,8 +73,3 @@ import java.util.Scanner;
 	}
 	
 }
-<<<<<<< HEAD
-=======
-
-
->>>>>>> adf53220e03804758f2323a4e4d6b60f252821b4
