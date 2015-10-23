@@ -3,13 +3,13 @@ import java.util.Scanner;
 //librerias de la clase
 
 public class Persona {// otro cambio
-    protected static String nombre;//jhoan chacongggggg
-	protected static String apellido;//declaracion de variable apellido
-	protected static int edad;
-	protected static String cedula;
-	protected static String telefono;
-	protected static String val;
-	protected static String pais;
+    private static String nombre;//jhoan chacongggggg
+	private static String apellido;//declaracion de variable apellido
+	private static int edad;
+	private static String cedula;
+	private static String telefono;
+	private static String val;
+	private static String pais;
 	 
 	static Scanner in = new Scanner (System.in);
 
@@ -84,18 +84,8 @@ public class Persona {// otro cambio
 		}
 
 	}
-	
-	
-	
-	/*Persona p= new Persona();
-	p.introducirDatos();
-	p.Imprimir();
-	p.mayorEdad();
-	p.comprobarNombre();
-	p.verificacionInf();
-	p.verNacionalidad();
 			
-	System.out.println("\n Vector de datos");
+	/*System.out.println("\n Vector de datos");
 	Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
 	for (Object value: p1);
 	System.out.println(Arrays.deepToString(p1));*/
