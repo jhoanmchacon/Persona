@@ -3,11 +3,12 @@ import java.util.Scanner;
 
 public class estudiante extends Persona {
 	
+	
 	private static int nota1;
 	private static int nota2;
 	private static int nota3;
 	private static int nota4;
-	private static float promedio;
+	private static int promedio;
 	private static String asig1;
 	private static String asig2;
 	private static String asig3;
@@ -83,7 +84,43 @@ public class estudiante extends Persona {
     		System.out.println("\n El estudiante esta reprobado");
     	}
     }
+    
+    public static void main(String[]args){
+    	
+    	Persona p= new Persona();
+		p.introducirDatos();
+		p.mayorEdad();
+		p.comprobarNombre();
+		p.Imprimir();
+		p.verificacionInf();
+		p.verNacionalidad();
+    	estudiante e= new estudiante();
+		e.introducirNotas();
+		e.asigVistas();
+		e.promedioNotas();
+		e.imprimirEstudiante();
+		e.aprobado();
+		/*estudiante frame = new estudiante();
+		frame.pack();
+		frame.setVisible(true);*/
+		
+		/*Object[][] e1 = {
+				{nombre, apellido, edad, cedula, telefono},
+			
+				};
+				
+		String[] columnNames = {"Nombre", "Apellido", "Edad",
+				"Cedula", "Telefono"};
+				
+				final JTable table = new JTable(e1, columnNames);
+				table.setPreferredScrollableViewportSize(new Dimension(500, 70));
+				
+				JScrollPane scrollPane = new JScrollPane(table);*/
+				
+
+				
+    }
+ 
+    }
 
 	
-	
-}
