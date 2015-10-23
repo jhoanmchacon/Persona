@@ -5,7 +5,7 @@ import java.util.Scanner;// mas comentarios jhoan
 //librerias de la clase
 
 public class Persona {// otro cambio
-	private static String nombre;//jhoan chacongggggg
+    private static String nombre;//jhoan chacongggggg
 	private static String apellido;//declaracion de variable apellido
 	private static int edad;
 	private static String cedula;
@@ -73,7 +73,6 @@ public class Persona {// otro cambio
 		}
 	}
 			
-	}
 	public void verNacionalidad(){
 		if (pais.equals("venezuela")){
 			System.out.println("Es venezolano");
@@ -91,10 +90,17 @@ public class Persona {// otro cambio
 		p.comprobarNombre();
 		p.verificacionInf();
 		p.verNacionalidad();
+		estudiante e= new estudiante();
+		//e.introducirDatos();
+		e.introducirNotas();
+		e.asigVistas();
+		e.promedioNotas();
+		e.imprimirEstudiante();
+		e.aprobado();
 		
-		Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
 		System.out.println("\n Vector de datos");
-		//for (Object value: p1);
+		Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
+		for (Object value: p1);
 		System.out.println(Arrays.deepToString(p1));
 	 }      //Imprimir vector
 
