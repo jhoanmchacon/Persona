@@ -1,7 +1,4 @@
-
-
 import java.util.Scanner;
-
 
 	public class Persona {// otro cambio
 		private static String nombre;//jhoan chacon
@@ -74,8 +71,5 @@ import java.util.Scanner;
 			verificacionInf();
 			}
 	}
-
 	
 }
-
-
