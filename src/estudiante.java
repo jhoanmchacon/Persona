@@ -92,30 +92,16 @@ public class estudiante extends Persona {
 		p.mayorEdad();
 		p.comprobarNombre();
 		p.Imprimir();
-		p.verificacionInf();
 		p.verNacionalidad();
+		p.verificacionInf();
     	estudiante e= new estudiante();
 		e.introducirNotas();
 		e.asigVistas();
 		e.promedioNotas();
 		e.imprimirEstudiante();
 		e.aprobado();
-		/*estudiante frame = new estudiante();
-		frame.pack();
-		frame.setVisible(true);*/
-		
-		/*Object[][] e1 = {
-				{nombre, apellido, edad, cedula, telefono},
-			
-				};
-				
-		String[] columnNames = {"Nombre", "Apellido", "Edad",
-				"Cedula", "Telefono"};
-				
-				final JTable table = new JTable(e1, columnNames);
-				table.setPreferredScrollableViewportSize(new Dimension(500, 70));
-				
-				JScrollPane scrollPane = new JScrollPane(table);*/
+
+
 				
 
 				
