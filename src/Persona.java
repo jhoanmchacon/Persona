@@ -93,7 +93,7 @@ public class Persona {// otro cambio
 		
 		Object[] p1= {nombre, apellido, edad, cedula, telefono, pais};
 		System.out.println("\n Vector de datos");
-		for (Object value: p1);
+		//for (Object value: p1);
 		System.out.println(Arrays.deepToString(p1));
 	 }      //Imprimir vector
 
